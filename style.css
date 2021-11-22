@@ -1,27 +1,101 @@
+
+html,
+body{
+font-family: Lato, sans-serif;
+}
+
+body{
+	background-color: #f3f3f3;
+}
+
+img{
+    margin-top: 20px;
+    border-radius: 150px;
+    width: 100px;
+	margin-left: 10em;
+}
+
+p{
+	width: 450px;
+}
+
+
+h2{
+	font-weight: normal;	
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #181818;
+}
+
+.divisor{
+border: 2px solid #cf8a05;
+
+}
+
 .clear {
 	clear: both;
+	border: 1px solid #dedede;
+	border: none;
 }
 
 #headshot {
 	width: 12.5%;
 	float: left;
-	margin-right: 30px;
+	margin-right:10em;
 }
 
 #name {
 	float: left;
+	font-family: rokkikit;
 }
 
+.Job{
+	margin-top: -20px;
+	font-size: 30px;
+}
 #contactDetails {
+	margin-top: 20px;
+	margin-right: 400px;
 	float: right;
+	color: #181818;
 }
 
 .sectionTitle {
 	float: left;
 	width: 25%;
+	color: #cf8a05;
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
 }
+
+.subDetails{
+	color: #444444;
+	font-style:italic;
+	margin-top: -20px;
+}
+
+.divisoria-topicos{
+	border: 1px solid #dedede;
+}
+
+.keySkills{
+display: grid;
+grid-template-columns: 200px 200px 200px;
+
+}
+
+.tittle-italic{
+	font-style: italic;
+	margin-left: 100px;
+	font-weight: normal;
+}
+
