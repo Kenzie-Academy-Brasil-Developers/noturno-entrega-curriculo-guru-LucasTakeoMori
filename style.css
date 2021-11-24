@@ -1,7 +1,7 @@
 
 html,
 body{
-font-family: Lato, sans-serif;
+	font-family:"Lato", Helvetica, Arial, sans-serif;
 }
 
 body{
@@ -19,6 +19,13 @@ p{
 	width: 450px;
 }
 
+
+
+h1,
+h2 {
+	font-family: rokkitt;
+	color: #444444;
+}
 
 h2{
 	font-weight: normal;	
@@ -66,11 +73,6 @@ border: 2px solid #cf8a05;
 	color: #181818;
 }
 
-.sectionTitle {
-	float: left;
-	width: 25%;
-	color: #cf8a05;
-}
 
 .sectionContent {
 	float: right;
@@ -97,5 +99,10 @@ grid-template-columns: 200px 200px 200px;
 	font-style: italic;
 	margin-left: 100px;
 	font-weight: normal;
+	color: #cf8a05;
 }
 
+.sectionTitle {
+	float: left;
+	width: 25%;
+}
